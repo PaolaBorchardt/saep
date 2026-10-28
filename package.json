@@ -1,0 +1,24 @@
+{
+  "name": "estrutura-prova-saep",
+  "version": "1.0.0",
+  "description": "Projeto base de controle de estoque com Node.js, Express e MySQL.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "saep",
+    "estoque",
+    "node",
+    "express",
+    "mysql"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5"
+  }
+}
